@@ -19,3 +19,11 @@ Our project repository for the ENGR101 autonomous vehicle challenge (AVC) 2016.
 ##Week 2 Checklist
 -
 -
+
+
+##General Plan
+Week1: Assign Roles, assemble basic robot, get it moving
+Week2: Robot moves through gate, 
+Week3: Robot can follow tape (quadrant 1)
+Week4: robot can follow tape through intersections
+Week5: robot can go through maze
