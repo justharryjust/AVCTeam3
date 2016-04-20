@@ -23,13 +23,22 @@ Members:
 - [ ] Everyone: Add each other on facebook and set up group chat
 
 ##Week 2 Checklist
--
--
+- [ ] Thomas: Review and record progress
+- [ ] Nicky+Harry: Work on making upgraded chassis prototype 2 which can turn easily (180mm space) and hold sensors
+- [ ] Julian: Work on code for making robot follow the white line
+- [ ] Adam: Work on code which will open the network gate
+- [ ] Thomas: Help work on code or if not needed help with prototype 2
 
+##Week 3 Checklist
+- [ ] Thomas: Review and record progress
+- [ ] Nicky+Harry: Work on chassis and help with code if needed
+- [ ] Julian: Work on code for making robot follow the white line through intersections and turns
+- [ ] Adam: Help with designing code 
+- [ ] Thomas: Help work on code or if not needed help with prototype
 
 ##General Plan
  - Week1: Assign Roles, assemble basic robot, get it moving
- - Week2: Robot moves through gate, (Quadrant 1)
- - Week3: Robot can follow tape (Quadrant 2)
- - Week4: Robot can follow tape through intersections (Quadrant 3)
+ - Week2: Robot moves through gate and in straght lines and turns, (Quadrant 1)
+ - Week3: Robot should be able to follow tape (Quadrant 2)
+ - Week4: Robot should be able to follow tape through intersections and turns (Quadrant 3)
  - Week5 onwards: Work on Challenge part (Quadrant 4)
