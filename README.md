@@ -22,8 +22,8 @@ Our project repository for the ENGR101 autonomous vehicle challenge (AVC) 2016.
 
 
 ##General Plan
-Week1: Assign Roles, assemble basic robot, get it moving
-Week2: Robot moves through gate, 
-Week3: Robot can follow tape (quadrant 1)
-Week4: robot can follow tape through intersections
-Week5: robot can go through maze
+ - Week1: Assign Roles, assemble basic robot, get it moving
+ - Week2: Robot moves through gate, (Quadrant 1)
+ - Week3: Robot can follow tape (quadrant 2)
+ - Week4: Robot can follow tape through intersections (quadrant 3)
+ - Week5 onwards: Work on Challenge part (Quadrant 4)
