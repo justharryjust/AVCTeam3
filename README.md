@@ -3,7 +3,7 @@ Our project repository for the ENGR101 autonomous vehicle challenge (AVC) 2016.
 
 
 ###Week 1 Checklist
-- [ ] Thomas: Arrange team meetings 
+- [ ] Thomas: Facebook group chat 
 - [ ] Thomas: Check all have signed plan 
 - [ ] Thomas: photo of maze uploaded
 - [ ] Thomas: Research error correction and getting code for following line
@@ -14,7 +14,7 @@ Our project repository for the ENGR101 autonomous vehicle challenge (AVC) 2016.
 - [ ] Harry+Thomas: Setup team github repository
 - [ ] Nicky+Harry: Develop prototype chassis with pi
 - [ ] Nicky+Harry: Try assemble first prototype
-- [ ] 
+- [ ] Everyone: Add each other on facebook
 
 ##Week 2 Checklist
 -
