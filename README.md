@@ -9,8 +9,8 @@ Adam Jiang
 
 
 ###Week 1 Checklist
-- [ ] Thomas: Facebook group chat 
-- [ ] Thomas: Check all have signed plan 
+- [ ] Thomas: Write up Plan in proper table
+- [ ] Thomas: Check all have signed aggreement 
 - [ ] Thomas: photo of maze uploaded
 - [ ] Thomas: Research error correction and code for following line
 - [ ] Julian: Produce code for straight line
