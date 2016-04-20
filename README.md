@@ -1,11 +1,11 @@
 # AVCTeam3
 Our project repository for the ENGR101 autonomous vehicle challenge (AVC) 2016.
 Members:
-Thomas Edwards
-Julian Schurhammer
-Nicky McCleery
-Harry Just
-Adam Jiang
+- Thomas Edwards - Lead/Manager
+- Julian Schurhammer - Software
+- Nicky McCleery - Hardware 
+- Harry Just - Hardware
+- Adam Jiang - Software
 
 
 ###Week 1 Checklist
@@ -20,7 +20,7 @@ Adam Jiang
 - [ ] Harry+Thomas: Setup team github repository
 - [ ] Nicky+Harry: Develop prototype chassis with pi
 - [ ] Nicky+Harry: Try assemble first prototype
-- [ ] Everyone: Add each other on facebook
+- [ ] Everyone: Add each other on facebook and set up group chat
 
 ##Week 2 Checklist
 -
