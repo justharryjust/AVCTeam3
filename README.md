@@ -10,8 +10,8 @@ Adam Jiang
 
 ###Week 1 Checklist
 - [ ] Thomas: Write up Plan in proper table
-- [ ] Thomas: Check all have signed aggreement 
-- [ ] Thomas: photo of maze uploaded
+- [x] Thomas: Check all have signed aggreement 
+- [x] Thomas: photo of maze uploaded
 - [ ] Thomas: Research error correction and code for following line
 - [ ] Julian: Produce code for straight line
 - [ ] Julian: Research PID and SSH
