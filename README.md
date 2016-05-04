@@ -9,18 +9,22 @@ Members:
 
 
 ###Week 1 Checklist
-- [ ] Thomas: Write up Plan in proper table
+- [x] Thomas: Write up Plan in proper table
 - [x] Thomas: Check all have signed aggreement 
 - [x] Thomas: photo of maze uploaded
-- [ ] Thomas: Research error correction and code for following line
-- [ ] Julian: Produce code for straight line
-- [ ] Julian: Research PID and SSH
-- [ ] Adam: Help out Julian 
-- [ ] Adam: Research networking communication signal to open gate
-- [ ] Harry+Thomas: Setup team github repository
-- [ ] Nicky+Harry: Develop prototype chassis with pi
-- [ ] Nicky+Harry: Try assemble first prototype
-- [ ] Everyone: Add each other on facebook and set up group chat
+- [x] Thomas: Research error correction and code for following line
+- [x] Julian: Produce code for straight line
+- [x] Julian: Research PID and SSH
+- [x] Adam: Help out Julian 
+- [x] Adam: Research networking communication signal to open gate
+- [x] Harry+Thomas: Setup team github repository
+- [x] Nicky+Harry: Develop prototype chassis with pi
+- [x] Nicky+Harry: Try assemble first prototype
+- [x] Everyone: Add each other on facebook and set up group chat
+
+##Week 1 review
+Everyone did their assigned tasks, we got a group chat going and everyone successfully showed up to our lab.
+This week hopefully we can get our robot following the line and get the basic robot chassis sorted. 
 
 ##Week 2 Checklist
 - [ ] Thomas: Review and record progress
