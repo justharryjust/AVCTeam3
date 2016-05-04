@@ -1,0 +1,13 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main()
+{
+//This is the code which allows cient to get the password from the server.// 
+    connect_to_server("130.195.6.196",1024);
+    send_to_server("Please");
+    char pswd[24];
+    receive_from_server(pswd);
+    send_to_server(pswd);
+    return 0;
+}
