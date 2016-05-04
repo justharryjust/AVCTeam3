@@ -44,7 +44,7 @@ int main()
               when relativly even, the sum should be very small. The sum is proportional to how uneven the white pixels are. Maximum sum is about 12200*/
               
             double turnRate = 0.001;//needs to be tested
-            UI.printf("\nThe sum is %d, motor speed is ",sum);
+            UI.printf("\nThe sum is %d",sum);
             set_motor(1 , 20+turnRate*sum);//20 is the base speed which is the speed when the white line is perfectly centred
             set_motor(2 , 20-turnRate*sum);
         }
