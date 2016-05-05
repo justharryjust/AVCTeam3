@@ -7,6 +7,7 @@ Members:
 - Harry Just - Hardware
 - Adam Jiang - Software
 
+# IP adress of our pi = 10.140.175.183
 
 ###Week 1 Checklist
 - [x] Thomas: Write up Plan in proper table
