@@ -28,17 +28,20 @@ Everyone did their assigned tasks, we got a group chat going and everyone succes
 This week hopefully we can get our robot following the line and get the basic robot chassis sorted. 
 
 ##Week 2 Checklist
-- [ ] Thomas: Review and record progress
-- [ ] Nicky+Harry: Work on making upgraded chassis prototype 2 which can turn easily (180mm space) and hold sensors
-- [ ] Julian: Work on code for making robot follow the white line
-- [ ] Adam: Work on code which will open the network gate
-- [ ] Thomas: Help work on code or if not needed help with prototype 2
+- [x] Thomas: Review and record progress
+- [x] Nicky+Harry: Work on making upgraded chassis prototype 2 which can turn easily (180mm space) and hold sensors
+- [x] Julian: Work on code for making robot follow the white line
+- [x] Adam: Work on code which will open the network gate
+- [x] Thomas: Help work on code or if not needed help with prototype 2
+- 
+##Week 2 review
+Week 2 we managed to get the robot to follow the line, but it used the "reverse backwards" method instead of PID so hopefully we can change it in future to use PID. On the hardware side we managed to make some plans for our final robot design, these need to be uploaded to github, and used to write our reports. Networking code managed to be completed but hasnt been tested yet.
 
 ##Week 3 Checklist
 - [ ] Thomas: Review and record progress
-- [ ] Nicky+Harry: Work on chassis and help with code if needed
+- [ ] Nicky+Harry: Work on chassis and try to start building it.
 - [ ] Julian: Work on code for making robot follow the white line through intersections and turns
-- [ ] Adam: Help with designing code 
+- [ ] Adam: Finalise and test networking code, ensure it works as expected, try and merge it with line following code
 - [ ] Thomas: Help work on code or if not needed help with prototype
 
 ##General Plan
