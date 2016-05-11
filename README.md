@@ -33,7 +33,7 @@ This week hopefully we can get our robot following the line and get the basic ro
 - [x] Julian: Work on code for making robot follow the white line
 - [x] Adam: Work on code which will open the network gate
 - [x] Thomas: Help work on code or if not needed help with prototype 2
-- 
+ 
 ##Week 2 review
 Week 2 we managed to get the robot to follow the line, but it used the "reverse backwards" method instead of PID so hopefully we can change it in future to use PID. On the hardware side we managed to make some plans for our final robot design, these need to be uploaded to github, and used to write our reports. Networking code managed to be completed but hasnt been tested yet.
 
@@ -50,3 +50,5 @@ Week 2 we managed to get the robot to follow the line, but it used the "reverse 
  - Week3: Robot should be able to follow tape (Quadrant 2)
  - Week4: Robot should be able to follow tape through intersections and turns (Quadrant 3)
  - Week5 onwards: Work on Challenge part (Quadrant 4)
+
+LOG OUT NEXT TIME 
