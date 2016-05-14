@@ -39,9 +39,17 @@ Week 2 we managed to get the robot to follow the line, but it used the "reverse 
 
 ##Week 3 Checklist
 - [ ] Thomas: Review and record progress
-- [ ] Nicky+Harry: Work on chassis and try to start building it.
+- [ ] Nicky+Harry: Work on chassis design and try to start building it.
 - [ ] Julian: Work on code for making robot follow the white line through intersections and turns
 - [ ] Adam: Finalise and test networking code, ensure it works as expected, try and merge it with line following code
+- [ ] Thomas: Help work on code or if not needed help with prototype
+- Overall robot should: move forward, stop at gate, send network signal, wait till gate is opened, start doing line following code
+
+##Week 4 Checklist
+- [ ] Thomas: Review and record progress
+- [ ] Nicky+Harry: Start building/printing the final robot design and putting things together especially sensors
+- [ ] Julian: Finish code to make robot follow white line doesnt have to be perfect PID, tune it for current robot.
+- [ ] Adam: Write code so that robot responds to walls of maze ie when a wall is sensed in front of the robot make it stop and turn
 - [ ] Thomas: Help work on code or if not needed help with prototype
 
 ##General Plan
@@ -50,5 +58,3 @@ Week 2 we managed to get the robot to follow the line, but it used the "reverse 
  - Week3: Robot should be able to follow tape (Quadrant 2)
  - Week4: Robot should be able to follow tape through intersections and turns (Quadrant 3)
  - Week5 onwards: Work on Challenge part (Quadrant 4)
-
-LOG OUT NEXT TIME 
