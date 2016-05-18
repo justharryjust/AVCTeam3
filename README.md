@@ -45,12 +45,26 @@ Week 2 we managed to get the robot to follow the line, but it used the "reverse 
 - [ ] Thomas: Help work on code or if not needed help with prototype
 - Overall robot should: move forward, stop at gate, send network signal, wait till gate is opened, start doing line following code
 
+##Week 3 Review
+Week 3 we managed to print out all of our additional features including the battery holder, sensor holders and the 3rd ball wheel. Code wise we got it to follow the line through the first 2 quadrants but have yet to get it to follow line through third quadrant.
+
 ##Week 4 Checklist
 - [ ] Thomas: Review and record progress
-- [ ] Nicky+Harry: Start building/printing the final robot design and putting things together especially sensors
-- [ ] Julian: Finish code to make robot follow white line doesnt have to be perfect PID, tune it for current robot.
-- [ ] Adam: Write code so that robot responds to walls of maze ie when a wall is sensed in front of the robot make it stop and turn
-- [ ] Thomas: Help work on code or if not needed help with prototype
+- [ ] Nicky+Harry: Have all of our holders/wheels printed and screwed on robot.
+- [ ] Nicky+Harry: Final check all of our screws and have everything sorted ready for next week.
+- [ ] Julian: Finish code to make robot completly follow white lines through intersections and dead ends.
+- [ ] Adam: Write code so that robot responds and follows walls of maze:
+- There are 3 sensors facing the front, left and right
+- Robot should follow Left hand wall to get to the end .
+- Robot will need to balance itself so that it is always a constant distance from Left and Right wall
+- Robot will need to have mehods to turn itself 90 degrees and 180 degrees
+- [ ] Thomas: Help write maze code with Adam
+- [ ] Julian: Confirm maze code or help write it if done with line following code.
+
+##Week 5 The Day.
+- [ ] Everything should be done.
+- [ ] No changes made on the day.
+- [ ] Maze Code all done and working
 
 ##General Plan
  - Week1: Assign Roles, assemble basic robot, get it moving
