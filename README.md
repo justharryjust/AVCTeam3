@@ -52,7 +52,7 @@ Week 3 we managed to print out all of our additional features including the batt
 - [ ] Thomas: Review and record progress
 - [ ] Nicky+Harry: Have all of our holders/wheels printed and screwed on robot.
 - [ ] Nicky+Harry: Final check all of our screws and have everything sorted ready for next week.
-- [ ] Julian: Finish code to make robot completly follow white lines through intersections and dead ends.
+- [ ] Julian: Finish code to make robot completly follow white lines through quadrant 3.
 - [ ] Adam: Write code so that robot responds and follows walls of maze:
 - There are 3 sensors facing the front, left and right
 - Robot should follow Left hand wall to get to the end .
