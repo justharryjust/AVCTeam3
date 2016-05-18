@@ -10,6 +10,12 @@ extern "C" int get_pixel(int row, int col, int colour);
 extern "C" int open_screen_stream();
 extern "C" int close_screen_stream();
 extern "C" int update_screen();
+extern "C" int connect_to_server( char server_addr[15],int port);
+extern "C" int send_to_server(char message[24]);
+extern "C" int receive_from_server(char message[24]);
+extern "C" int read_analog(int ch_adc);
+extern "C" bool run_sensor=true;
+
 
 using namespace std;
 
@@ -77,7 +83,7 @@ int error_method_2(){
 
 int error_method_3(){
     //PID Constants for method 3
-    P = 0.8;
+    P = 0.6;
     I = 0.0;
     D = 0.0;
     max_error = 160;
@@ -127,15 +133,10 @@ bool has_lost_line(){
     return true;
 }
 
-int main()
-{
-    init(0);
-    open_screen_stream();
-
-    int integral = 0;
-    int last_error = error_method_1();
-
-    while (true) {
+//Initial values
+int integral = 0;
+int last_error = 0;
+void follow_loop(){
             take_picture();
             update_screen();
 
@@ -160,6 +161,32 @@ int main()
 
             set_motor(1 , speed*clamp(0, 100, 100+final_signal));
             set_motor(2 , speed*clamp(0, 100, 100-final_signal));
-    }
+}
+
+int main()
+{
+    init(0);
+    open_screen_stream();
+    
+    connect_to_server("130.195.6.196",1024);
+    send_to_server("Please");
+    char pswd[24];
+    receive_from_server(pswd);
+    send_to_server(pswd);
+    
+    int adc_reading = 0;
+    last_error = error_method_3();
+    
+	while(true){
+  	    adc_reading = read_analog(0);
+	    printf("%d\n", adc_reading);
+	    Sleep(0,500000);
+		if(adc_reading<100){
+			follow_loop();
+		} else {
+			set_motor(1 , 0);
+            set_motor(2 , 0);
+		}
+	}
     return 0;
 }

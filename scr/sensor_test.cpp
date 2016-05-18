@@ -6,10 +6,8 @@ extern "C" int init(int d_lev);
 extern "C" int connect_to_server( char server_addr[15],int port);
 extern "C" int send_to_server(char message[24]);
 extern "C" int receive_from_server(char message[24]);
-extern "C" int init (int d_lev);
 extern "C" int read_analog(int ch_adc);
 extern "C" int Sleep(int sec, int usec);
-extern "C" bool open=false;
 extern "C" bool run_sensor=true;
 
 
@@ -33,7 +31,6 @@ int main(){
 	Sleep(0,500000);
 
 		if(adc_reading>300){
-		open= true;
 		run_sensor=false;
 		}
 	}
