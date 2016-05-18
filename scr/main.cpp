@@ -83,7 +83,7 @@ int error_method_2(){
 
 int error_method_3(){
     //PID Constants for method 3
-    P = 0.6;
+    P = 0.8;
     I = 0.0;
     D = 0.0;
     max_error = 160;
@@ -159,8 +159,8 @@ void follow_loop(){
             cout << "derivitive " << derivitive << endl;
             cout << "final " << final_signal << endl;
 
-            set_motor(1 , speed*clamp(0, 100, 100+final_signal));
-            set_motor(2 , speed*clamp(0, 100, 100-final_signal));
+            set_motor(1 , speed*clamp(-100, 100, 100+final_signal));
+            set_motor(2 , speed*clamp(-100, 100, 100-final_signal));
 }
 
 int main()
@@ -168,11 +168,11 @@ int main()
     init(0);
     open_screen_stream();
     
-    connect_to_server("130.195.6.196",1024);
-    send_to_server("Please");
-    char pswd[24];
-    receive_from_server(pswd);
-    send_to_server(pswd);
+//    connect_to_server("130.195.6.196",1024);
+//    send_to_server("Please");
+//    char pswd[24];
+//    receive_from_server(pswd);
+//    send_to_server(pswd);
     
     int adc_reading = 0;
     last_error = error_method_3();
@@ -180,7 +180,6 @@ int main()
 	while(true){
   	    adc_reading = read_analog(0);
 	    printf("%d\n", adc_reading);
-	    Sleep(0,500000);
 		if(adc_reading<100){
 			follow_loop();
 		} else {
