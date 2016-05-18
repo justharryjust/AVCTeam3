@@ -38,33 +38,34 @@ This week hopefully we can get our robot following the line and get the basic ro
 Week 2 we managed to get the robot to follow the line, but it used the "reverse backwards" method instead of PID so hopefully we can change it in future to use PID. On the hardware side we managed to make some plans for our final robot design, these need to be uploaded to github, and used to write our reports. Networking code managed to be completed but hasnt been tested yet.
 
 ##Week 3 Checklist
-- [ ] Thomas: Review and record progress
-- [ ] Nicky+Harry: Work on chassis design and try to start building it.
-- [ ] Julian: Work on code for making robot follow the white line through intersections and turns
-- [ ] Adam: Finalise and test networking code, ensure it works as expected, try and merge it with line following code
-- [ ] Thomas: Help work on code or if not needed help with prototype
+- [x] Thomas: Review and record progress
+- [x] Nicky+Harry: Work on chassis design and try to start building it.
+- [x] Julian: Work on code for making robot follow the white line through intersections and turns
+- [x] Adam: Finalise and test networking code, ensure it works as expected, try and merge it with line following code
+- [x] Thomas: Help work on code or if not needed help with prototype
 - Overall robot should: move forward, stop at gate, send network signal, wait till gate is opened, start doing line following code
 
 ##Week 3 Review
-Week 3 we managed to print out all of our additional features including the battery holder, sensor holders and the 3rd ball wheel. Code wise we got it to follow the line through the first 2 quadrants but have yet to get it to follow line through third quadrant.
+Week 3 we managed to design all of our hardware additional features including the battery holder, sensor holders and the 3rd ball wheel. We are waiting for the 3D printers to become available so we can print these off. Code wise, our robot now follows the line through the first 2 quadrants successfully. We have a planned out the code for the third quadrant but have yet to test and implement it.
 
 ##Week 4 Checklist
 - [ ] Thomas: Review and record progress
 - [ ] Nicky+Harry: Have all of our holders/wheels printed and screwed on robot.
 - [ ] Nicky+Harry: Final check all of our screws and have everything sorted ready for next week.
 - [ ] Julian: Finish code to make robot completly follow white lines through quadrant 3.
-- [ ] Adam: Write code so that robot responds and follows walls of maze:
-- There are 3 sensors facing the front, left and right
-- Robot should follow Left hand wall to get to the end .
-- Robot will need to balance itself so that it is always a constant distance from Left and Right wall
-- Robot will need to have mehods to turn itself 90 degrees and 180 degrees
+- [ ] Adam: Write code so that robot responds to the walls of maze:
+- There are 3 sensors facing the front, left and right.
+- Robot should follow Left Hand wall to get to the end. (Doesnt have to stop at the end)
+- Robot will need to balance itself so that it is always a constant distance from Left and Right wall.
+- Robot will need to have methods to turn itself 90 degrees.
 - [ ] Thomas: Help write maze code with Adam
 - [ ] Julian: Confirm maze code or help write it if done with line following code.
 
 ##Week 5 The Day.
 - [ ] Everything should be done.
 - [ ] No changes made on the day.
-- [ ] Maze Code all done and working
+- [ ] Maze Code all done and working.
+- During this weeks lab we will have to show Elf how far our robot can get through the maze.
 
 ##General Plan
  - Week1: Assign Roles, assemble basic robot, get it moving
