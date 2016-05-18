@@ -1,4 +1,4 @@
-# AVCTeam3
+# AVCTeam3 - Apollo 100
 Our project repository for the ENGR101 autonomous vehicle challenge (AVC) 2016.
 Members:
 - Thomas Edwards - Lead/Manager
