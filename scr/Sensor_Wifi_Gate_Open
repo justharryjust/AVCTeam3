@@ -26,7 +26,7 @@ int main(){
 	
 	int adc_reading;
 
-	while(sensor){
+	while(run_sensor){
   	adc_reading = read_analog(0);
 	
 	printf(“%d\n”, adc_reading);
@@ -60,7 +60,7 @@ int main(){
 
     send_to_server(pswd);
 
-    return 0	}
+    return 0;	}
 
 return 0;
 }
