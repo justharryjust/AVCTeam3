@@ -61,6 +61,9 @@ Week 3 we managed to design all of our hardware additional features including th
 - [ ] Thomas: Help write maze code with Adam
 - [ ] Julian: Confirm maze code or help write it if done with line following code.
 
+##Week 4 Review
+Week 4 we are behind slightly, we have the ball holder but still waiting on the infared sensor holders to be printed or imporvised. Retesting and tweaking the code for the new wheel is well underway and its almost able to make it though the frist two quadrants again. The code for quadrant three is still in the planning phase. Extra hours will need to be out in from each team member for the robot to bbe upto scratch for the day.
+
 ##Week 5 The Day.
 - [ ] Everything should be done.
 - [ ] No changes made on the day.
