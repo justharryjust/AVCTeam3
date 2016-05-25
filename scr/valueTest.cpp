@@ -16,7 +16,7 @@ int main()
 init(1);
 signal(2,signal_callback_handler);//prevents the pi spazzing out with ctrl+c
 
- while (true){//test loop to find the number to replace 30 with, so that we can control distance of stopping/ point of turning
+ while (true){
     int sen1 = read_analog(1);//left
     int sen2 = read_analog(0);//middle
     int sen3 = read_analog(2);//right
