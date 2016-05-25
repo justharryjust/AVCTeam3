@@ -62,7 +62,7 @@ Week 3 we managed to design all of our hardware additional features including th
 - [ ] Julian: Confirm maze code or help write it if done with line following code.
 
 ##Week 4 Review
-Week 4 we are behind slightly, we have the ball holder but still waiting on the infared sensor holders to be printed or imporvised. Retesting and tweaking the code for the new wheel is well underway and its almost able to make it though the frist two quadrants again. The code for quadrant three is still in the planning phase. Extra hours will need to be out in from each team member for the robot to bbe upto scratch for the day.
+Week 4 we are behind slightly, we have the ball holder but still waiting on the infared sensor holders to be printed or imporvised. Changing our thirdwheel had an unexpected setback of changing our line following code. Retesting and tweaking this code for the new wheel is well underway and it's able to make it though the first two quadrants again. The code for quadrant three is still being tested. The maze code has been written but not tested. Extra hours will need to be put in from each team member for the robot to be upto scratch for the day.
 
 ##Week 5 The Day.
 - [ ] Everything should be done.
@@ -74,5 +74,5 @@ Week 4 we are behind slightly, we have the ball holder but still waiting on the 
  - Week1: Assign Roles, assemble basic robot, get it moving
  - Week2: Robot moves through gate and in straght lines and turns, (Quadrant 1)
  - Week3: Robot should be able to follow tape (Quadrant 2)
- - Week4: Robot should be able to follow tape through intersections and turns (Quadrant 3)
+ - Week4: Robot should be able to follow tape through right angle intersections and turns (Quadrant 3)
  - Week5 onwards: Work on Challenge part (Quadrant 4)
