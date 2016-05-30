@@ -253,9 +253,9 @@ while (1){
         int sen2 = read_analog(0);//middle
         int sen3 = read_analog(2);//right
 
-        int dif = sen3-400;
-        if(dif<-220){dif=-220;}//used to maintain constant distance from wall
-        dif=dif*0.15;
+        int dif = sen3-400;//distance from right hand wall (Smaller is a great distance)
+        if(dif<-220){dif=-220;}//sharpness of turn (smaller is less sharp)
+        dif=dif*0.15;//how responsive robot is
         set_motor(1,speed1+dif);
         set_motor(2,speed1-dif);
 
@@ -263,9 +263,9 @@ while (1){
         set_motor(1,0);
         set_motor(2,0);
         Sleep(1,0);
-        set_motor(1,speed1+40);
+        set_motor(1,speed1+40);//speed of turn
         set_motor(2,0);
-        Sleep(0,600000);
+        Sleep(0,600000);//turn duration
 
     }
     }
