@@ -231,13 +231,14 @@ int main()
     receive_from_server(pswd);
     send_to_server(pswd);
 
-    int adc_reading = 0;
+    int count = 0;
     last_error = error_method_4(0);
     last_loop_end_time = get_time();
 	while(true){
   	    int sen3 = read_analog(2);//right
   	    int sen1 = read_analog(1);//left
   	    int sen2 = read_analog(0);//middle
+  	    count++;
 		if(sen3<300 && sen1<300){
 			follow_loop();
 		}
@@ -245,7 +246,7 @@ int main()
 			set_motor(1,0);
 			set_motor(2,0);
 			}
-		 else if ((sen3>400 || sen1>400) && sen2<300) {
+		 else if ((sen3>400 || sen1>400) && sen2<300 && count>200) {
 
 last_loop_end_time = get_time();
 while (1){
