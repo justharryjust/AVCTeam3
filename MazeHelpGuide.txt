@@ -9,8 +9,8 @@ How the maze code works:
 Maze code is quite simple, there are only  two sections of it. The first section is a loop which loops forever, this loop simply 
 takes a distance reading of the right hand wall,  does some math (subtracts 400 then multiplies by 0.15) and sets the motors to that 
 resulting number. If the number is positive then the left motor will move more than the right and if negative vice versa. This code 
-enables the robot to follow the right hand wall through straight paths and also right turns, as when no wall is detected on the right
-(resulting number becomes very negative causing a sharp right turn until a wall is detected again).
+enables the robot to follow the right hand wall through straight paths and also right turns (as when no wall is detected on the right,
+resulting number becomes very negative causing a sharp right turn until a wall is detected again).
 The second piece of code is simply a hard coded left turn method, it is called whenever the front sensor detects a wall closer than 5cm. 
 It simply codes the left wheel to stop and the right wheel to spin for 0.7 seconds which creates a perfect left turn. The code then 
 returns to following the right wall.
