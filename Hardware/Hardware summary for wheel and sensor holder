@@ -1,0 +1,29 @@
+hard ware summary for sensor holder and backwheel holder
+
+
+The specifications for the sensor holders needed to be sturdy as well as recyclable.
+The idea of the sensor was to be mounted right behind the two front wheels but over look them in order to get an accurate
+reading. The design that was decided was a simple L bracket it met the specifications and was quick to print. The 
+final design can be seen in an .STL format below. The L bracket provides a stable and functional holder for the
+infrared sensor and it perfectly fitted on the robot making for a good simple design. The sensor holder on the 
+front was made from one of the printed sensor holders and part of an L bracket that was salvaged from an unsuccessful
+print it turn out to be really great and worked extremely well providing as a stable support for the sensor.
+
+Sensor Holder Final design:
+https://github.com/harryJst/AVCTeam3/blob/master/Hardware/Lbracket.stl
+
+The back wheel holder part for the robot had two main specifications, functionality and recyclability.
+We needed a recyclable wheel that provides a frictionless surface as possible which was.
+
+The first back wheel that was used when we started testing during quadrant was the default and we soon 
+realised that the default back wheel was causing problems. The first phase of the back wheel design was 
+four screws holding a marble even though it was better than the default wheel it had too much friction and it
+was causing it to lock up and not move and the back unable to move at all. After this is when the design for
+the 3D printed wheel came in. The back wheel holder had to hold a marble in place and allow it to roll
+freely with minimal friction. It also had to be small enough so that the robot was at an even height. 
+The final 3d printed design had 5 small nobs on the inside of a hollow sphere to minimise friction it worked
+very well and provided the expected functionality and was easily fitted to the base of the robot. A model of
+the wheel holder can be seen below on the Git Hub. 
+
+Final back wheel design mesh: 
+https://github.com/harryJst/AVCTeam3/blob/master/Hardware/mesh_to_print_wheel.stl          
