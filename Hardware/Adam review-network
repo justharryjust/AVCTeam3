@@ -1,0 +1,22 @@
+The network is used for sending message between the server and customer. In AVC, the network is for the gate opening section. When 
+in front of the gate, the sensor will send the message that there is gate need to open. Therefore, the customer will ask the server 
+for a password. After receiving the message, the customer sends the password back to the server and then the gate opens.
+
+The codes below is for the network:
+
+connect_to_server(“130…”,1024)     
+This method used for connecting network between server and customer
+
+
+send_to_server(“please give me a password to open gate”);
+The customer send a message to the server for password.
+
+
+char pswd[24];
+A variable to store the password
+
+receive_from_server(pswd);
+Customer receives the password from the server.
+
+send_to_server(pswd);
+Customer send the password back to server and then the gate will be open.
